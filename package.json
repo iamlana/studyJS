@@ -2,8 +2,8 @@
     "name": "study-js",
     "private": true,
     "dependencies": {},
-    "devDependencies": {
-        "chai": "^4.2.0",
-        "mocha": "^8.0.1"
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js"
     }
 }
