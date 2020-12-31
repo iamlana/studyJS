@@ -20,3 +20,5 @@ function commonLettersInTwoArrays(array1, array2) {
 }
 
 console.log(commonLettersInTwoArrays(firstArray, secondArray))
+
+
