@@ -27,3 +27,21 @@ function containsDuplicate2(nums) {
 }
 
 console.log(containsDuplicate2([1, 2, 3, 4]))
+
+function duplicateCount(text) {
+    let map = new Map;
+    let result = 0
+    for (const char of text.toLowerCase()) {
+        let count = map.get(char) || 0
+        map.set(char, count + 1)
+    }
+
+    for (let value of map.values()) {
+        if (value > 1) {
+            result++
+        }
+    }
+    return result
+}
+
+
